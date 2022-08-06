@@ -1,0 +1,31 @@
+ int main()
+ {
+     char palabra[21];
+     int i,cantidad;
+
+
+
+     printf("Ingrese una palabra:  ");
+     scanf("%s",&palabra);
+
+    i=0;
+    cantidad=0;
+
+   while( palabra[i]!='\0')
+
+   {
+       if(palabra[i]=='a')
+       {
+        cantidad++;
+       }
+       i++;
+   }
+
+
+
+    printf("La cantidad de A minusculas son:%d \n",cantidad);
+
+
+
+     return 0;
+ }
